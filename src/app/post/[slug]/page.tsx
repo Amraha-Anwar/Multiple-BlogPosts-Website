@@ -5,7 +5,14 @@ import { getPostBySlug } from '@/data/blogs';
 import { FaLongArrowAltLeft } from "react-icons/fa";
 import Comments from '@/components/Comments';
 
-export default async function BlogPosts({params}: {params: {slug: string}}) {
+
+interface PageProps {
+    params: {
+      slug: string;
+    };
+  }
+
+export default async function BlogPosts({params}: PageProps) {
     const post = await getPostBySlug(params.slug)
     if (!post) {
         return notFound();
