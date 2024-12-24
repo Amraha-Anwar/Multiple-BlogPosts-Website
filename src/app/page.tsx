@@ -18,7 +18,7 @@ export default function Home(){
                     <Image className="px-3" src={"/images/home.jpg"} alt="home banner" width={600} height={600}/>
                 </div>
             </div>
-            <div className="pt-12">
+            <div className="pt-12 flex items-end justify-center">
             <p className="text-center text-black  text-sm">
                 &copy;2024 Veil. | All Rights Reserved.
             </p>
