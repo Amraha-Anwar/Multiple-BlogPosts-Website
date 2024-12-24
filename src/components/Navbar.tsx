@@ -67,21 +67,21 @@ export default function Navbar() {
                     <MdMenuBook className="text-amber-100 w-7 h-7" />
                   </SheetTrigger>
                 </div>
-                <SheetContent className="bg-custom3 bg-opacity-50 pt-20 text-center">
+                <SheetContent className="bg-custom2 bg-opacity-90 pt-20 text-center">
                   {/* Add a hidden title for accessibility */}
                   <SheetTitle className="sr-only">Menu</SheetTitle>
                   <ul className="flex flex-col space-y-7">
                     <li>
                       <Link
                         href={"/"}
-                        className="text-custom2 text-3xl font-bold"
+                        className="text-amber-100 text-3xl font-bold"
                       >
                         Home
                       </Link>
                     </li>
                     <li>
                       <Link
-                        className="text-custom2 text-3xl font-bold"
+                        className="text-amber-100 text-3xl font-bold"
                         href="/blog"
                       >
                         Blogs
@@ -89,7 +89,7 @@ export default function Navbar() {
                     </li>
                     <li>
                       <Link
-                        className="text-custom2 text-3xl font-bold"
+                        className="text-amber-100 text-3xl font-bold"
                         href="/about"
                       >
                         About
@@ -97,7 +97,7 @@ export default function Navbar() {
                     </li>
                     <li>
                       <Link
-                        className="text-custom2 text-3xl font-bold"
+                        className="text-amber-100 text-3xl font-bold"
                         href={"/contact"}
                       >
                         Contact Us
