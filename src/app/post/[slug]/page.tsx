@@ -20,7 +20,7 @@ export default async function BlogPosts({ params }: PageProps) {
 
   return (
     <main className="bg-white pt-20 px-4 sm:px-6 lg:px-40 pb-12">
-      <div className="container px-4 sm:px-6 lg:px-8 py-12 max-w-screen-2xl mx-auto">
+      <div className="container px-4 sm:px-6 lg:px-8 py-12 w-full">
         <div>
           <Link
             href="/blog"
@@ -80,11 +80,7 @@ export default async function BlogPosts({ params }: PageProps) {
         </article>
       </div>
       <Comments />
-      <div className="pt-12">
-        <p className="text-center text-black text-sm">
-          &copy;2024 Veil. | All Rights Reserved.
-        </p>
-      </div>
+     
     </main>
   );
 }

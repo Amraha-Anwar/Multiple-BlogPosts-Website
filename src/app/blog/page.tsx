@@ -6,7 +6,7 @@ import {blogs} from "@/data/blogs";
 export default function BlogPage() {
     return(
       <>
-        <main className="max-w-screen-2xl mx-auto h-screen pt-40 bg-custom3 bg-opacity-50 overflow-x-hidden">
+        <main className="w-full pb-8 pt-40 bg-custom3 bg-opacity-50 overflow-x-hidden">
         <div className="p-6">
         <h1 className="text-5xl text-center font-bold mb-6">Latest Blog Posts</h1>
         <div className="flex flex-wrap justify-center gap-4 mb-20">
@@ -41,11 +41,6 @@ export default function BlogPage() {
           ))}
         </div>
       </div>
-      <div className="pt-12 pb-3">
-            <p className="text-center text-black  text-sm">
-                &copy;2024 Veil. | All Rights Reserved.
-            </p>
-        </div>
       </main>
       </>
     );

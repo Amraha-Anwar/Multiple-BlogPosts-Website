@@ -44,7 +44,7 @@ export default function Comments() {
   };
 
   return (
-    <div className="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-10">
+    <div className="w-full px-4 sm:px-6 lg:px-10">
       <h2 className="text-2xl font-bold text-custom2 py-4">Comments</h2>
       <form onSubmit={addComment} className="mb-10">
         <input

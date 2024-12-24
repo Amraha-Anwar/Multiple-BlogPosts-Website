@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function AboutPage() {
   return (
     <>
-      <main className="max-w-screen-2xl mx-auto pt-20 lg:pt-40 lg:px-8 h-screen bg-custom3 bg-opacity-50 overflow-x-hidden">
+      <main className="w-full pt-20 lg:pt-40 lg:px-8 pb-8 bg-custom3 bg-opacity-50 overflow-x-hidden">
         {/* main div which'll separate left/right sections */}
         <div className="flex flex-col lg:flex-row justify-between">
           {/* left section, (image) */}
@@ -102,11 +102,7 @@ export default function AboutPage() {
             <span className="text-custom2 font-bold"></span>
           </div>
         </div>
-        <div className="pt-12 pb-3">
-          <p className="text-center text-black  text-sm">
-            &copy;2024 Veil. | All Rights Reserved.
-          </p>
-        </div>
+       
       </main>
     </>
   );

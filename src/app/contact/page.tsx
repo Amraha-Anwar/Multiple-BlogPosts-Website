@@ -9,7 +9,7 @@ import { FaSnapchatGhost } from "react-icons/fa";
 export default function Contact() {
   return (
     <>
-      <div className="max-w-screen-2xl mx-auto pt-40 lg:px-8 h-screen bg-custom3 bg-opacity-50 overflow-x-hidden">
+      <div className="w-full pt-40 lg:px-8 bg-custom3 bg-opacity-50 overflow-x-hidden">
         <h1 className="text-5xl font-bold text-center">Contact Us</h1>
         <p className="px-3 md:px-0 text-center mt-2">
           For any queries, please feel free to reach out to us at:
@@ -30,7 +30,7 @@ export default function Contact() {
               <FaPhoneVolume className="md:w-8 hmd:-8" />
               {`+1(234)567-8910`}
             </p>
-            <div className="flex justify-center">
+            <div className="flex justify-center xl:justify-start">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25211.28573382556!2d-119.4379!3d36.7783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzYgNycwMy40Ik4gMTE5gDU1JzA3LjQiVw!5e0!3m2!1sen!2sus!4v1646796767031"
               width="600"
@@ -71,11 +71,6 @@ export default function Contact() {
             <FaTwitter className="w-12 h-12 text-custom2 hover:text-amber-100 hover:bg-custom2 hover:border hover:rounded-full hover:scale-105 transition-transform duration-300" />
             <FaSnapchatGhost className="w-12 h-12 text-custom2 hover:text-amber-100 hover:bg-custom2 hover:border hover:rounded-full hover:scale-105 transition-transform duration-300" />
           </div>
-        </div>
-        <div className="pt-12 pb-3">
-          <p className="text-center text-black  text-sm">
-            &copy;2024 Veil. | All Rights Reserved.
-          </p>
         </div>
       </div>
     </>
